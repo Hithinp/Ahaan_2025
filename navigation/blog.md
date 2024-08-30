@@ -1,6 +1,6 @@
 ---
-layout: blogs 
-title: Blogs
+layout: page
+title: ToolSetup
 search_exclude: true
-permalink: /blogs/
+permalink: /toolsetup/
 ---
