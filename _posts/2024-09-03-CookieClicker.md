@@ -1,15 +1,23 @@
 ---
-layout: page
-title: About and Cookie Clicker!
-permalink: /about/
+layout: post
+title: The Famous Cookie Clicker Game! 
+permalink: /cookie-clicker
+toc: true
 ---
 
 <html>
+<head>
+<style>
+p {
+  color: orange;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
 <body>
 
-
-<p style="font-size:100%; color: MediumSeaGreen; font: italic bold 20px Arial, sans-serif;"> Hello my name is Ahaan and I am a 10th grader aka Sophmore. I lived in San Diego all my life, and was born downtown. I love to play  video games on my Nintendo Switch and my favorite foods are Chicken and Pizza. My goals after high school is to work in video game devlopment 
-either as a programmer or designer. I am excited to dive deeper into computer science in order to achieve my goals. Have fun with my cookie clicker game.</p>
+<p>I love to play Cookie Clicker in my free time, so why not make my own version off cookie clicker. It may be simple but it is a wonderful way to pass time.</p>
 
 </body>
 </html>
