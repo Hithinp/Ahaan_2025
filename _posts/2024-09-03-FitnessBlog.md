@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fitness Blog
+title: Maintain A Healthy Fitness Habit!
 permalink: /fitness-blog
 toc: true
 ---
