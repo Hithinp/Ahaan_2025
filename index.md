@@ -10,6 +10,6 @@ hide: true
 
 
 
-<a href="{{site.baseurl}}/cookie-clicker/"<button>Cookie Clicker Game</button></a>
+<a href="{{site.baseurl}}/cookie-clicker/"><button>Cookie Clicker Game</button></a>
 
 
