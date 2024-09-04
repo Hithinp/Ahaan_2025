@@ -38,7 +38,7 @@ hide: true
 </head>
 <body>
 
-<p>Debug: site.baseurl is "{{site.baseurl}}"</p>
+<p>Debug: site.baseurl is "{{ site.baseurl }}"</p>
 <a href="{{site.baseurl}}/cookie-clicker/" class="button-link">Cookie Clicker Game</a> 
 
 </body>
