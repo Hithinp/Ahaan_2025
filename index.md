@@ -12,7 +12,7 @@ hide: true
 
 
 
-<a href="{{site.baseurl}}/2024/09/03/cookie-clicker/" class="button-link">Cookie Clicker Game</a>
+<a href="{{ site.baseurl }}/2024/09/03/cookie-clicker/" class="button-link">Cookie Clicker Game</a>
 
 
 
