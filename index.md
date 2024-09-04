@@ -12,4 +12,5 @@ hide: true
 
 
 
-<a href="{{ "/cookie-clicker/" | relative_url }}" class="button-link">Cookie Clicker Game</a>
+<a href="{{site.baseurl}}/cookie-clicker/" class="button-link">Cookie Clicker Game</a>
+
