@@ -36,7 +36,7 @@ hide: true
 </head>
 <body>
 
-    <a href="{{site.baseurl}}/cookie-clicker/" class="button-link">Cookie Clicker Game</a>
+<a href="{{site.baseurl}}/cookie-clicker/" class="button-link">Cookie Clicker Game</a> 
 
 </body>
 </html>
