@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Famous Cookie Clicker Game! 
-date: 2024-09-03 10:00:00 +0000
+permalink: /cookie-clicker/
 toc: true
 ---
 

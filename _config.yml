@@ -6,7 +6,6 @@ github_repo: "Ahaan_2025"
 baseurl: "/Ahaan_2025"
 future: true
 remote_theme: jekyll/minima
-permalink: /:year/:month/:day/:title
 minima:
   skin: dark
   social_links:
