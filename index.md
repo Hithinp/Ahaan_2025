@@ -15,10 +15,11 @@ hide: true
 
 <h1 style="font-size:300%; color: Red; font: bold 50px Arial, sans-serif;"> Ahaan Vaidyanathan GitHub Page </h1>
 ----
-
+<div>
 <p1 style="font-size:70%; color: purple; font: bold 21px Open Sans;"> Welcome to my GitHub page for AP Computer Science Principals </p1>
+<div>
 
-</body>
+
 
 ---
 <div>
@@ -60,7 +61,7 @@ hide: true
 <div>
     <!-- notice how tags can be put INSIDE eachother -->
     <p style=" color: Pink; font: bold 14px Open Sans;"> Click here to learn how to code! </p>
-      <a href="https://www.w3schools.com/" class="button-link">w3schools</a>
+      <a href="https://www.w3schools.com/" class="button-link">W3schools</a>
 
 <style>
 .button-link {
