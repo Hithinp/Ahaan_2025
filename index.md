@@ -218,8 +218,8 @@ hide: true
 ---
 <div>
     <!-- notice how tags can be put INSIDE eachother -->
-    <p style="color: Pink; font: bold 14px Open Sans;"> Click here to play Cookie Clicker! </p>
-    <a href="{{ site.baseurl }}/cookie-clicker/" class="button-link">Cookie Clicker Game</a>
+    <p style="color: Pink; font: bold 14px Open Sans;"> Click here to view College Board </p>
+    <a href="https://apstudents.collegeboard.org/" class="button-link">AP College Board</a>
 
 <style>
 .button-link {
