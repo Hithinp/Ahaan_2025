@@ -201,5 +201,9 @@ hide: true
 ----
 <div>
 <p1 style="font-size:70%; color: purple; font: bold 21px Open Sans;"> Welcome to my GitHub page for AP Computer Science Principals </p1>
+
+<!-- Adding an image using the <img> tag -->
+<img src="{{site.baseurl}}/images/IMG_9146.jpg" height="160">
+
 <div>
 
