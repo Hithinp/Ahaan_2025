@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Famous Cookie Clicker Game! 
+title: The Famous Cookie Clicker Game! (Pair Showcase)
 permalink: /cookie-clicker/
 toc: true
 ---
@@ -17,7 +17,8 @@ p {
 </head>
 <body>
 
-<p>I love to play Cookie Clicker in my free time, so why not make my own version off cookie clicker. It may be simple but it is a wonderful way to pass time.</p>
+<p1>We love to play Cookie Clicker in my free time, so why not make my own version off cookie clicker. It may be simple but it is a wonderful way to pass time.</p1>
+<p2>Created by Rutvik Chavda and Ahaan Vaidyanathan</p2>
 
 </body>
 </html>
