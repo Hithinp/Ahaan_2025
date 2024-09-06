@@ -13,6 +13,7 @@ hide: true
 <body>
 
 
+
 <!-- Liquid:  statements -->
 
 <!-- Include submenu from _includes to top of pages -->
@@ -203,7 +204,12 @@ hide: true
 <p1 style="font-size:70%; color: purple; font: bold 21px Open Sans;"> Welcome to my GitHub page for AP Computer Science Principals  &#128513;</p1>
 
 <!-- Adding an image using the <img> tag -->
-<img src="{{site.baseurl}}/images/IMG_9146.jpg" height="160">
+<img src="{{site.baseurl}}/images/Alaska.JPG" height="160">
+
+
+
+
+
 
 <div>
 
@@ -218,7 +224,7 @@ hide: true
 ---
 <div>
     <!-- notice how tags can be put INSIDE eachother -->
-    <p style="color: Pink; font: bold 14px Open Sans;"> Click here to view College Board </p>
+    <p style="color: Brown; font: bold 14px Open Sans;"> Click here to view College Board </p>
     <a href="https://apstudents.collegeboard.org/" class="button-link">AP College Board</a>
 
 <style>
@@ -254,7 +260,7 @@ hide: true
 <!-- third information -->
 <div>
     <!-- notice how tags can be put INSIDE eachother -->
-    <p style=" color: Pink; font: bold 14px Open Sans;"> Click here to learn how to code! </p>
+    <p style=" color: Brown; font: bold 14px Open Sans;"> Click here to learn how to code! </p>
       <a href="https://www.w3schools.com/" class="button-link">W3schools</a>
 
 <style>
@@ -290,7 +296,7 @@ hide: true
 <!-- second information -->
 <div>
     <!-- notice how tags can be put INSIDE eachother -->
-    <p style=" color: Pink; font: bold 14px Open Sans;"> Click here to view Del Norte Website! </p>
+    <p style=" color: Brown; font: bold 14px Open Sans;"> Click here to view Del Norte Website! </p>
       <a href="https://delnorte.powayusd.com/" class="button-link">Del Norte Website</a>
 
 <style>
@@ -320,5 +326,7 @@ hide: true
     transform: translateY(2px);
 
 }
+
+
 
 
