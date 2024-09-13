@@ -16,8 +16,6 @@ hide: true
 
 <!-- Liquid:  statements -->
 
-<!-- Include submenu from _includes to top of pages -->
-{% include nav/home.html %}
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
 <!--- Has is a list variable containing mario metadata for sprite --->
@@ -197,7 +195,17 @@ hide: true
   });
 
 </script>
-
+<table>
+    <tr>
+        <td><img src="{{site.baseurl}}/images/flag.jpeg" height="60" title="Home" alt=""></td>
+        <td><a href="{{site.baseurl}}/india-culture/">Timeless India</a></td>
+        <td><a href="{{site.baseurl}}/fitness/">Fitness Blog</a></td>
+        <td><a href="{{site.baseurl}}/san-diego/">Discover San Diego</a></td>
+        <td><a href="{{site.baseurl}}/snake/">Snake Game</a></td>
+        
+        
+    </tr>
+</table>
 <h1 style="font-size:300%; color: Red; font: bold 50px Arial, sans-serif;"> Ahaan Vaidyanathan GitHub Page </h1>
 ----
 <div>
@@ -331,37 +339,3 @@ hide: true
      
 </div>
 ---
-<!-- third information -->
-<div>
-    <!-- notice how tags can be put INSIDE eachother -->
-    <p style=" color: Brown; font: bold 14px Open Sans;"> Click here to play the Snake Game! </p> 
-    <a href="{{ site.baseurl }}/snake/" class="button-link">Snake Game</a>
-
-<style>
-.button-link {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.button-link:hover {
-    background-color: #45a049;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
-}
-
-.button-link:active {
-    background-color: #3e8e41;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    transform: translateY(2px);
-
-}
-
