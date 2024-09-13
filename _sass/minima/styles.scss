@@ -1,0 +1,15 @@
+// Define the font and colors as variables for easy management
+$primary-font: Arial, sans-serif;
+$primary-color: MediumSeaGreen;
+$font-size: 20px;
+
+p {
+  font-size: 100%;
+  color: $primary-color;
+  font: {
+    style: italic;
+    weight: bold;
+    size: $font-size;
+    family: $primary-font;
+  }
+}

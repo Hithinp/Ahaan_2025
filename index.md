@@ -334,8 +334,8 @@ hide: true
 <!-- third information -->
 <div>
     <!-- notice how tags can be put INSIDE eachother -->
-    <p style=" color: Brown; font: bold 14px Open Sans;"> Click here to play Button Clicker! </p> 
-    <a href="{{ site.baseurl }}/button/" class="button-link">Button Clicker</a>
+    <p style=" color: Brown; font: bold 14px Open Sans;"> Click here to play the Snake Game! </p> 
+    <a href="{{ site.baseurl }}/snake/" class="button-link">Snake Game</a>
 
 <style>
 .button-link {
