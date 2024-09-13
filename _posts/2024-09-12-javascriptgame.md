@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Snake Game
-description: A Javascript Snake game that contains score and preferences.
-categories: [Javascript]
-permalink: /javascript/project/snake
+permalink: /snake/
 toc: true
-comments: false
+
 ---
 
 <style>
