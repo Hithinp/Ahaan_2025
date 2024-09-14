@@ -78,7 +78,7 @@ toc: true
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
         <div id="menu" class="py-4 text-light">
-            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
+            <p>Welcome to Python the Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
             <a id="new_game" class="link-alert">New game</a>
             <a id="setting_menu" class="link-alert">Settings</a>
         </div>
@@ -273,7 +273,7 @@ toc: true
             ctx.fillStyle = "green";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             // Paint snake
-            for(let i = 2; i < snake.length; i++){
+            for(let i = 0; i < snake.length; i++){
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
