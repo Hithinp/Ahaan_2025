@@ -8,6 +8,7 @@ toc: true
 
 
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -30,12 +31,54 @@ toc: true
       margin-top: 30px;
     }
 
+    /* Create a circle for the cookie */
     #cookie {
       width: 200px;
+      height: 200px;
+      background-color: #D2691E; /* Cookie color */
+      border-radius: 50%;
+      position: relative;
+      margin: 0 auto;
       cursor: pointer;
       transition: transform 0.1s;
     }
 
+    /* Chocolate chips */
+    .chip {
+      width: 20px;
+      height: 20px;
+      background-color: #3E2723; /* Dark chocolate color */
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    /* Position chocolate chips randomly */
+    .chip:nth-child(1) {
+      top: 30px;
+      left: 50px;
+    }
+
+    .chip:nth-child(2) {
+      top: 50px;
+      right: 40px;
+    }
+
+    .chip:nth-child(3) {
+      top: 120px;
+      left: 60px;
+    }
+
+    .chip:nth-child(4) {
+      top: 140px;
+      right: 50px;
+    }
+
+    .chip:nth-child(5) {
+      top: 90px;
+      left: 90px;
+    }
+
+    /* Cookie click effect */
     #cookie:active {
       transform: scale(0.95);
     }
@@ -70,7 +113,14 @@ toc: true
   <div id="game">
     <h1>Cookie Clicker</h1>
     <div id="cookie-container">
-      <img id="cookie" src="cookie.png" alt="Cookie">
+      <!-- CSS styled cookie -->
+      <div id="cookie">
+        <div class="chip"></div>
+        <div class="chip"></div>
+        <div class="chip"></div>
+        <div class="chip"></div>
+        <div class="chip"></div>
+      </div>
       <p>Cookies: <span id="cookieCount">0</span></p>
     </div>
     <div id="upgrades">
