@@ -1,0 +1,67 @@
+// Variables for reusability
+$background-color: #87ceeb;
+$border-color: #333;
+$game-background: #f0f0f0;
+$basket-color: brown;
+$object-color: green;
+$font-color: #333;
+$score-background: #fff;
+$font-family: Arial, sans-serif;
+
+// Mixin for centering
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Global styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+}
+
+#game {
+  @include center;
+  height: 100vh;
+  background-color: $game-background;
+}
+
+#gameCanvas {
+  background-color: $background-color;
+  border: 2px solid $border-color;
+}
+
+#scoreBoard {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: $score-background;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    color: $font-color;
+  }
+}
+
+// Basket and falling objects styles
+.basket {
+  background-color: $basket-color;
+  width: 80px;
+  height: 20px;
+}
+
+.object {
+  background-color: $object-color;
+  width: 20px;
+  height: 20px;
+}

@@ -201,11 +201,37 @@ hide: true
         <td><a href="{{site.baseurl}}/india-culture/">Timeless India</a></td>
         <td><a href="{{site.baseurl}}/fitness/">Fitness Blog</a></td>
         <td><a href="{{site.baseurl}}/san-diego/">Discover San Diego</a></td>
-        <td><a href="{{site.baseurl}}/snake/">Snake Game</a></td>
-        <td><a href="{{site.baseurl}}/jupyter/">Jupyter Notebooks</a></td>
+        
         
         
     </tr>
+
+</table>
+
+<table>
+    <tr>
+        <td><img src="{{site.baseurl}}/images/game.png" height="60" title="Home" alt=""></td>
+        <td><a href="{{site.baseurl}}/snake/">Snake Game</a></td>
+        <td><a href="{{site.baseurl}}/basket/">Catch the Falling Objects</a></td>
+        <td><a href="{{site.baseurl}}/cookie-clicker/">Cookie Clicker</a></td>
+
+     
+        
+        
+    </tr>
+
+</table>
+
+<table>
+    <tr>
+        <td><img src="{{site.baseurl}}/images/india.png" height="60" title="Home" alt=""></td>
+        <td><a href="{{site.baseurl}}/snake-d/">Snake Description</a></td>
+        <td><a href="{{site.baseurl}}/problems/">Questions For AP Exam</a></td>
+     
+        
+        
+    </tr>
+
 </table>
 <h1 style="font-size:300%; color: Red; font: bold 50px Arial, sans-serif;"> Ahaan Vaidyanathan GitHub Page </h1>
 ----
