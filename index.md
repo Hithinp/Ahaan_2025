@@ -202,6 +202,7 @@ hide: true
         <td><a href="{{site.baseurl}}/fitness/">Fitness Blog</a></td>
         <td><a href="{{site.baseurl}}/san-diego/">Discover San Diego</a></td>
         <td><a href="{{site.baseurl}}/snake/">Snake Game</a></td>
+        <td><a href="{{site.baseurl}}/jupyter/">Jupyter Notebooks</a></td>
         
         
     </tr>
