@@ -225,8 +225,9 @@ hide: true
 <table>
     <tr>
         <td><img src="{{site.baseurl}}/images/india.png" height="60" title="Home" alt=""></td>
-        <td><a href="{{site.baseurl}}/snake-d/">Snake Description</a></td>
-        <td><a href="{{site.baseurl}}/problems/">Questions For AP Exam</a></td>
+        <td><a href="{{site.baseurl}}/javascript/">Javascript Notebook</a></td>
+        <td><a href="{{site.baseurl}}/python/">Python Notebook</a></td>
+        <td><a href="{{site.baseurl}}/problems/">Problems and Questions Notebook</a></td>
      
         
         
