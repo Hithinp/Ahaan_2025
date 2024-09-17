@@ -6,6 +6,7 @@ toc: true
 ---
 
 
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -101,7 +102,7 @@ toc: true
     let food = { x: gridSize * 10, y: gridSize * 10 };
     let score = 0;
     let gameLoop;
-    let gameSpeed = 150; // Initial speed, slightly faster than before
+    let gameSpeed = 150; // Initial speed
 
     // Draw the game grid, snake, and food
     function draw() {
@@ -193,10 +194,10 @@ toc: true
       startButton.style.display = 'block';
     }
 
-    // Handle direction change based on keyboard input
+    // Handle direction change based on keyboard input (WASD keys)
     function changeDirection(event) {
-      const key = event.keyCode;
-      const UP = 38, DOWN = 40, LEFT = 37, RIGHT = 39;
+      const key = event.key.toUpperCase();
+      const UP = 'W', DOWN = 'S', LEFT = 'A', RIGHT = 'D';
 
       if (key === UP && direction.y === 0) {
         direction = { x: 0, y: -gridSize };
