@@ -214,6 +214,7 @@ hide: true
         <td><a href="{{site.baseurl}}/snake/">Snake Game</a></td>
         <td><a href="{{site.baseurl}}/basket/">Catch the Falling Objects</a></td>
         <td><a href="{{site.baseurl}}/cookie-clicker/">Cookie Clicker</a></td>
+        <td><a href="{{site.baseurl}}/calculator/">Calculator</a></td>
 
      
         
